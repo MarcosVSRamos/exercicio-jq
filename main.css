@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    margin: 26px;
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+input,
+button{
+    width: 12px auto;
+}
+
+button{
+    margin-right: 8px;
+    background-color: rgb(147, 28, 28);
+    border: none;
+    color: #fff;
+    font-size: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+
+button:hover{
+    background-color: rgb(183, 43, 43);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    border: 1px solid;
+    border-radius: 3px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+li:hover{
+    cursor: pointer;
+}
+
+.riscado{
+    text-decoration: line-through;
+}
